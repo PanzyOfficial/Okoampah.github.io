@@ -167,7 +167,9 @@ button:hover {
   font-weight: 700;
 }
 
-
+html {
+  overflow-x: hidden;
+}
 
 
 
