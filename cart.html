@@ -257,27 +257,50 @@ box-shadow: 0px 25px 40px #1687d933;
   </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+   
+           <img src="image/OK logo.jpg" alt="logo" class="img-fluid" style="position:absolute;margin-left:3px;top:7px;width:100px;">
     <div class="container-fluid">
-    <div class="navbar-header">
-    <img src="image/OK logo.jpg" alt="logo" style="width:90px;position:absolute;left:28px;top:20px;">
-        <a class="navbar-brand" href="index.html" style="font-size:45px;font-family:Ember,bookerly;margin-left:70px;"><STRONG>Okoampah</STRONG></a><br>
-        <a class="navbar-brand" href="index.html" style="font-size:18px;font-family:Ember,bookerly;margin-left:65px;"><STRONG>Ernest Asare Company Limited.</STRONG></a>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" style="font-size:45px;font-family:Ember,bookerly;margin-left:85px;margin-top:20px;width:100px;"><STRONG>Okoampah</STRONG></a><br>
+        <a class="navbar-brand" href="index.html" style="font-size:18px;font-family:Ember,bookerly;margin-left:75px;"><STRONG>Ernest Asare Company Limited.</STRONG></a>
       </div>
+        <a href="cart.html" class="cart visible-xs" aria-label="View your shopping cart" style="font-size:14px;font-family:Ember,bookerly;position:relative;margin-left:85px;top:2px;color:white;text-decoration: none;">
+        <span class="cart-basket d-flex align-items-center justify-content-center"style="position:absolute;left:10px;margin-top:1px;">
+        </span>
+       <i class="fas fa fa-shopping-cart fa-lg">
+        0 items in Carts
+        </i>
+        
+      </a>
+        
+        <a href="cart.html" class="cart visible-lg" aria-label="View your shopping cart" style="font-size:14px;font-family:Ember,bookerly;position:;left:200px;top:80px;color:white;text-decoration: none;">
+        <span class="cart-basket d-flex align-items-center justify-content-center"style="position:absolute;left:30px;margin-top:1px;">
+        </span>
+       <i class="fas fa fa-shopping-cart fa-lg">
+        0 items in Cart
+        </i>
+        
+      </a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"style="color:white;margin-top:20px;margin-left:11px;width:90px;height:80px;"> 
+         <span class="navbar-toggler-icon text-white" style="color:white;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="color:white;">
+        <ul class="navbar-nav">
       <li class="nav navbar-nav" >
-        <li class="active"><a href="index.html" style="color:white;text-decoration:none;">Home</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"style="color:white;text-decoration:none;">Category</a>
-          <ul class="dropdown-menu text-center">
-            <h4><p>All Categories</p></h4>
-            <li><a href="living.html">Living Room</a></li>
-            <li><a href="living.html">Bedroom</a></li>  
-        </ul>
+        <li class="nav-item visible-sm"><a href="index.html" class="nav-link" style="color:white;text-decoration:none;">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"style="color:white;text-decoration:none;position:relative;left:140px;">Category</a>
+          <ul class="dropdown-menu p-3 mb-2 bg-light text-dark">
+              <h3><p style="color:white;text-decoration:none;position:relative;left:105px;color:black;">All Categories</p></h3>
+              <li ><a href="living.html"class="nav-link" style="color:white;text-decoration:none;position:relative;left:110px;color:black;">Living Room</a></li>
+              <li ><a href="living.html" class="nav-link"  style="color:white;text-decoration:none;position:relative;left:110px;color:black;">Bedroom</a></li>  
+          </ul>
 
            
-        <!--<li><a href="services.php"style="color:white;text-decoration:none;">Services</a></li>-->
-        <li><a href="about.html"style="color:white;text-decoration:none;">About Us</a></li>
-        <li><a href="contact page.html"style="color:white;text-decoration:none;">Contact Us</a></li>
-            <!--<form class="navbar-form navbar-left" action="/action_page.php">
+        <!--<li><a href="<?php echo SITEURL?>services.php"style="color:white;text-decoration:none;">Services</a></li>-->
+        <li class="nav-item"><a href="about.html" class="nav-link" style="color:white;text-decoration:none;position:relative;left:140px;">About Us</a></li>
+        <li class="nav-item"><a href="contact page.html" class="nav-link "style="color:white;text-decoration:none;position:relative;left:140px;">Contact Us</a></li>
+           <!-- <form class="navbar-form navbar-left" action="/action_page.php">
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Search" name="search">
                   <div class="input-group-btn">
@@ -288,26 +311,20 @@ box-shadow: 0px 25px 40px #1687d933;
                 </div>
               </form>-->
               
-              
+              <li class="nav navbar-nav navbar-right" style="margin-left: 131px;">
+                <li class="nav-item"><a href="sign up.html" style="color:white;text-decoration:none;position:relative;left:140px;" class="nav-link"><span class="glyphicon glyphicon-user"style="color:white;"></span> Sign Up</a></li>
+                <li class="nav-item"><a href="login.html" style="color:white;text-decoration:none;position:relative;left:140px;" class="nav-link"><span class="glyphicon glyphicon-log-in"style="color:white;"></span> Login</a></li>
+    </li>      
              
     </li>
-      <a href="cart.html" class="cart" aria-label="View your shopping cart" style="font-size:14px;font-family:Ember,bookerly;position:absolute;margin-left:880px;margin-top:1px;color:white;text-decoration: none;">
-        <span class="cart-basket d-flex align-items-center justify-content-center"style="position:absolute;left:30px;margin-top:1px;">
-        
-        </span>
-       <i class="fas fa fa-shopping-cart fa-lg">
-       0 items in Cart
-        </i>
-        
-      </a>
+  </ul>
+  </div>
+    <!-- it ends here-->
+      
 
-      <li class="nav navbar-nav navbar-right" style="margin-left: 130px;">
-                <li><a href="sign up.html"style="color:white;text-decoration:none;"><span class="glyphicon glyphicon-user"style="color:white;"></span> Sign Up</a></li>
-                <li><a href="login.html"style="color:white;text-decoration:none;"><span class="glyphicon glyphicon-log-in"style="color:white;"></span> Login</a></li>
-    </li>
     </div>
    
-</nav>
+  </nav>
 
 <body>
     <div id="content">
