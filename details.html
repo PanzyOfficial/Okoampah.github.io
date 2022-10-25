@@ -540,16 +540,21 @@ body {
                      <div class="form-group">
                          
                          <label class="col-md-5 control-label">Product Sizes.</label>
-                             <ol>
+                             <ol class="visible-lg">
                                          <input type="radio" name="product_size" id="size" value="<?php echo $price1;?>" required> SINGLE SIZE<!--<label for="size" ></label>--><br>
                                          <input type="radio" name="product_size" id="size" value="<?php echo $price2;?>"  required> MEDIUM SIZE<!--<label for="size" ></label>--><br>
                                          <input type="radio" name="product_size" id="sizes" class="visible-lg" value="<?php echo $price3;?>" style="margin-left:136px;"required> DOUBLE SIZE<!--<label for="sizes"></label>--><br>
                                          <input type="radio" name="product_size" id="size" class="visible-lg" value="<?php echo $price4;?>" style="margin-left:136px;"required> QUEEN SIZE<br>
                                          <input type="radio" name="product_size" id="size" class="visible-lg" value="<?php echo $price5;?>" style="margin-left:136px;"required> KING SIZE<br>
                                  
-                                  <input type="radio" name="product_size" id="sizes" class="visible-xs" value="<?php echo $price3;?>" required> DOUBLE SIZE<!--<label for="sizes"></label>--><br>
-                                         <input type="radio" name="product_size" id="size" class="visible-xs"  value="<?php echo $price4;?>" required> QUEEN SIZE<br>
-                                         <input type="radio" name="product_size" id="size" class="visible-xs"  value="<?php echo $price5;?>" required> KING SIZE<br>
+                             </ol>
+                          <ol class="visible-xs">
+                                         <input type="radio" name="product_size" id="size" value="<?php echo $price1;?>" required> SINGLE SIZE<!--<label for="size" ></label>--><br>
+                                         <input type="radio" name="product_size" id="size" value="<?php echo $price2;?>"  required> MEDIUM SIZE<!--<label for="size" ></label>--><br>
+                                         <input type="radio" name="product_size" id="sizes" class="visible-lg" value="<?php echo $price3;?>" required> DOUBLE SIZE<!--<label for="sizes"></label>--><br>
+                                         <input type="radio" name="product_size" id="size" class="visible-lg" value="<?php echo $price4;?>" required> QUEEN SIZE<br>
+                                         <input type="radio" name="product_size" id="size" class="visible-lg" value="<?php echo $price5;?>" required> KING SIZE<br>
+                                 
                              </ol>
                         
               </div>
