@@ -1,4 +1,342 @@
-  
+ @media (max-width: 717px) and (min-width: 716px){
+                  .carts
+  {
+    position:absolute;
+    top: 150px;
+    left:400px;
+  }
+          .collapse
+       {
+        visibility: hidden;
+       }
+          .cart
+       {
+        visibility: hidden;
+       }
+          .navbar
+  {
+    width:800px;
+    height:200px;
+  }
+         .img-fluid
+  {
+    position:absolute;
+    top:-10px;
+    left:200px;
+  }
+         .fold
+    {
+      position:absolute;
+      top:150px;
+      left:200px;
+    }
+  .folds
+  {
+    position:absolute;
+    top:150px;
+    left:290px;
+  }
+          .foldss
+    {
+      position:absolute;
+      top:150px;
+      left:530px;
+    }
+  .foldsss
+    {
+      position:absolute;
+      top:150px;
+      left:630px;
+    }
+         .foldy
+  {
+    position:absolute;
+    top: 150px;
+    left:10px;
+  }
+         .dropdown
+  {
+    position:absolute;
+    top: -70px;
+    left:90px;
+  }
+ 
+  .navbar-brand
+       {
+        visibility: hidden;
+       }
+          .letters
+         {
+              visibility: hidden;
+         }
+       .navbar-brands
+       {
+            visibility: hidden;
+       }
+       .navbar-brandse
+       {
+            visibility: hidden;
+       }
+}
+
+   @media (max-width: 375px) and (min-width: 370px){
+    .dropdown
+       {
+        visibility: hidden;
+        position:absolute;
+      top:150px;
+      left:10px;
+       }
+    .cartss
+       {
+        position:absolute;
+        top:150px;
+        left:130px;
+        visibility: hidden;
+       }
+       .foldy
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .foldss
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .foldsss
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .folds
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .fold
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .navbar-brandss
+    {
+              visibility: hidden;
+         }
+         .navbar-brandsse
+    {
+              visibility: hidden;
+         }
+          .letters
+         {
+              visibility: hidden;
+         }
+       .navbar-brands
+       {
+            visibility: hidden;
+       }
+       
+}
+     
+     @media (max-width: 414px) and (min-width: 360px){
+      .dropdown
+       {
+        visibility: hidden;
+        position:absolute;
+      top:150px;
+      left:130px;
+       }
+      .foldy
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+      .cartss
+       {
+        position:absolute;
+        top:150px;
+        left:130px;
+        visibility: hidden;
+       }
+      .foldss
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .foldsss
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .folds
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+    .fold
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+      .navbar-brandsse
+    {
+              visibility: hidden;
+         }
+      .navbar-brandss
+    {
+              visibility: hidden;
+         }
+
+          .letters
+         {
+              visibility: hidden;
+             display: hidden;
+             position:relative;
+      margin-left:1px;
+      
+      /*top:-120px;*/
+      width:1px;
+         }
+       .navbar-brands
+       {
+            visibility: hidden;
+           display: hidden;
+       }
+         .navbar-brandse
+       {
+            visibility: hidden;
+           display: hidden;
+       }
+} 
+     
+     @media (max-width:280px ) and (min-width: 275px) {
+      .foldy
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+      .dropdown
+       {
+        visibility: hidden;
+        position:absolute;
+      top:150px;
+      left:130px;
+       }
+       
+      .cartss
+       {
+        position:absolute;
+        top:150px;
+        left:130px;
+        visibility: hidden;
+       }
+      .submit .mx
+      {
+        visibility: hidden;
+      }
+      .foldss
+    {
+      visibility: hidden;
+      position:absolute;
+      top:150px;
+      left:130px;
+    }
+      .foldsss
+    {
+      position:absolute;
+      visibility: hidden;
+    }
+      .folds
+    {
+      position:absolute;
+      visibility: hidden;
+    }
+      .fold
+    {
+      position:absolute;
+      visibility: hidden;
+    }
+      .navbar-brandsse
+    {
+      position:absolute;
+      top:150px;
+      visibility: hidden;
+    }
+      .navbar-brandss
+    {
+      position:absolute;
+      top:150px;
+      visibility: hidden;
+    }
+         .submit-btn
+         {
+          visibility: hidden;
+         }
+         .img-fluid
+         {
+          position:absolute;
+             visibility: hidden;
+             display:hidden;
+             width:1px;
+         }
+         .navbar-brands
+          {
+             font-size:38px;
+              position:absolute;
+             font-family:Ember,bookerly;
+             color:white;
+             margin-left:99px;
+             top:1px;
+             
+         }
+         
+         .navbar-brandse
+          {
+             font-size:13px;
+              font-family:Ember,bookerly;
+              position:absolute;
+              top:56px;
+              left:100px;
+              color:white;
+         }
+         
+         .navbar-brand
+          {
+            position:absolute;
+            top:56px;
+             visibility: hidden;
+         }
+       
+  .letters{
+      position:relative;
+      margin-left:1px;
+      margin-top:8px;
+      /*top:-120px;*/
+      width:80px;
+   }
+}  
 *{
     margin:0 ;
     padding: 0;
