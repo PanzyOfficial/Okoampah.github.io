@@ -442,7 +442,38 @@ box-shadow: 0px 25px 40px #1687d933;
                  </div>
                </form>
              </div>
-              
+              <div class="col-md-3 visible-xs">
+        <div id="order-summary" class="box visible-xs">
+          <div class="box-header visible-xs">
+            <h3>Order Summary</h3>
+          </div>
+          <p class="text-muted">
+            
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <tbody>
+                <tr>
+                 <td>Order Sub-Total</td> 
+                 <th>Gh₵ <?php echo $total;?></th>
+                </tr>
+                <tr>
+                  <td>Shipping And Handling.</td>
+                  <td>Gh₵0</td>
+                </tr>
+                <tr>
+                  <td>Tax</td>
+                  <td>Gh₵0</td>
+                </tr>
+                <tr class="total">
+                  <td>Total</td>
+                  <td>Gh₵ <?php echo $total;?></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
      
             
              <div id="row same-height-row">
