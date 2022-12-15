@@ -789,8 +789,8 @@ top:5px;
         <a class="navbar-brandse" href="index.html" ><STRONG>Ernest Asare Company Limited.</STRONG></a>
         <a class="navbar-brand" href="index.html" style="font-size:45px;font-family:Ember,bookerly;margin-left:77px;margin-top:20px;width:100px;"><STRONG>Okoampah</STRONG></a><br>
         <a class="navbar-brand" href="index.html" style="font-size:18px;font-family:Ember,bookerly;margin-left:71px;"><STRONG>Ernest Asare Company Limited.</STRONG></a>
-     <a class="navbar-brandss" href="<?php echo SITEURL?>"  style="font-size:40px;font-family:Ember,bookerly;width:100px;color:white;position:absolute;top:40px;left:320px;text-decoration:none;"><STRONG>Okoampah</STRONG></a><br>
-        <a class="navbar-brandsse" href="<?php echo SITEURL?>" style="font-size:18px;font-family:Ember,bookerly;color:white;position:absolute;top:90px;left:300px;text-decoration:none;"><STRONG>Ernest Asare Company Limited.</STRONG></a>
+     <a class="navbar-brandss" href="index.html"  style="font-size:40px;font-family:Ember,bookerly;width:100px;color:white;position:absolute;top:40px;left:320px;text-decoration:none;"><STRONG>Okoampah</STRONG></a><br>
+        <a class="navbar-brandsse" href="index.html" style="font-size:18px;font-family:Ember,bookerly;color:white;position:absolute;top:90px;left:300px;text-decoration:none;"><STRONG>Ernest Asare Company Limited.</STRONG></a>
       </div>
         
         <a href="cart.html" class="cart visible-xs" aria-label="View your shopping cart" style="font-size:14px;font-family:Ember,bookerly;position:relative;margin-left:85px;top:2px;color:white;text-decoration: none;">
@@ -854,30 +854,10 @@ top:5px;
    
   </nav>
  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"style="color:white;text-decoration:none;">Category</a>
-          <ul class="dropdown-menu">
-              <h4><p>All Categories</p></h4>
-              <?php
-              $sql="SELECT * FROM tbl_category WHERE status='Active'";
-              $res =mysqli_query($conn,$sql);
-              while($row=mysqli_fetch_array($res))
-              {
-                $cat_id=$row['cat_id'];
-                $cat_title=$row['cat_title'];
-                echo"
-                  <li style='display:inline-block;clear: both;white-space: nowrap;'>
-                   <a href='living.php?cat=$cat_id'>
-                   $cat_title
-                   </a>
-                  </li>
-                
-                
-                ";
-                 
-                  
-              }
-             
-              ?>
-              
+          <ul class="dropdown-menu p-3 mb-2 bg-light text-dark">
+              <h3><p style="color:white;text-decoration:none;position:relative;left:105px;color:black;">All Categories</p></h3>
+              <li ><a href="living.html" style="color:white;text-decoration:none;position:relative;left:110px;color:black;">Living Room</a></li>
+              <li ><a href="living.html"  style="color:white;text-decoration:none;position:relative;left:110px;color:black;">Bedroom</a></li>  
           </ul>
             </li> 
   
