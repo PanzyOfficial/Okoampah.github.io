@@ -853,6 +853,47 @@ top:5px;
     </div>
    
   </nav>
+ <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"style="color:white;text-decoration:none;">Category</a>
+          <ul class="dropdown-menu">
+              <h4><p>All Categories</p></h4>
+              <?php
+              $sql="SELECT * FROM tbl_category WHERE status='Active'";
+              $res =mysqli_query($conn,$sql);
+              while($row=mysqli_fetch_array($res))
+              {
+                $cat_id=$row['cat_id'];
+                $cat_title=$row['cat_title'];
+                echo"
+                  <li style='display:inline-block;clear: both;white-space: nowrap;'>
+                   <a href='living.php?cat=$cat_id'>
+                   $cat_title
+                   </a>
+                  </li>
+                
+                
+                ";
+                 
+                  
+              }
+             
+              ?>
+              
+          </ul>
+            </li> 
+  
+   <a href="<?php echo SITEURL?>cart.php" class="carts" aria-label="View your shopping cart" style="font-size:14px;font-family:Ember,bookerly;color:white;text-decoration: none;">
+        <span class="cart-basket d-flex align-items-center justify-content-center"style="position:absolute;left:10px;margin-top:1px;">
+        </span>
+       <i class="fas fa fa-shopping-cart fa-lg">
+       <?php items();?> items in Cart
+        </i>
+        
+      </a>
+      <li class="foldy"><a href="<?php echo SITEURL?>" style="color:white;text-decoration:none;">Home</a></li>
+   <li class="folds"><a href="<?php echo SITEURL?>contact page.php"style="color:white;text-decoration:none;">Contact Us</a></li>
+    <li class="fold"><a href="<?php echo SITEURL?>about.php" style="color:white;text-decoration:none;">About Us</a></li>
+    <li class="foldsss"><a href="<?php echo SITEURL?>login.php"style="color:white;text-decoration:none;"><span class="glyphicon glyphicon-log-in"style="color:white;"></span> Login</a></li>
+    <li class="foldss"><a href="<?php echo SITEURL?>sign up.php"style="color:white;text-decoration:none;"><span class="glyphicon glyphicon-user"style="color:white;"></span> Sign Up</a></li>
  <!-- it ends here-->
 
 
